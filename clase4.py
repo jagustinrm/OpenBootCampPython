@@ -3,3 +3,6 @@ reversa = reversed(intervalo)
 print(reversa)
 for numero in reversa:
     print(numero)
+
+
+
