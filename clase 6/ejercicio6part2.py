@@ -10,9 +10,9 @@ class Alumno:
 
     def resultado_aprobacion(self):
         if self.nota >= 6:
-            print("¡El alumno ha aprobado!")
+            print("¡El alumno aprobó!")
         else:
-            print("El alumno ha reprobado.")
+            print("El alumno reprobó.")
 
 
 alumno1 = Alumno("Juan", 7.5)
