@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Directores</title>
+</head>
+<body>
+    <h1>Directores de Cine</h1>
+    <ul>
+        {% for director in directores %}
+            <li>{{ director.nombre }}</li>
+        {% empty %}
+            <li>No hay directores registrados.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
